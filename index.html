@@ -2,37 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Covid Best News</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav style="
-    width: 100%;
-    position: fixed;
-    padding: 10px 15px;
-    border-bottom: 1px solid white;
-    justify-content: space-between;
-    display: block;
-    color: white;
-">
-<section class="container">
-        <b style="
-    font-size: 25px;
-    font-weight: bolder;
-    line-height: 51px;
-">Covid Best News</b>
-        <ul style="
-    display: block;
-    float: right;
-    list-style: none;
-">
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Contato</li>
-            <li>Saiba mais</li>
-        </ul>
-    </section>
+    <nav class="top-nav">
+        <section class="container">
+            <b>Covid Best News</b>
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+                <li>Saiba mais</li>
+            </ul>
+        </section>
     </nav>
     <main class="container">
     <header class="col-12 text-center text-white page flex-vertical-align">
@@ -81,13 +65,182 @@
 
     <header id="p5" class="col-12 text-center text-white page flex-vertical-align">
         <b class="floating">
-            <h1 class="no-margin-v Subtitulo">E para te provar que estou falando sério quando digo isso, vou te mostrar 5 noticias que comprovam que nem tudo esta perdido!</h1>
+            <h1 class="no-margin-v Subtitulo">E para te provar que estou falando sério quando digo isso, vou te mostrar 6 noticias que comprovam que nem tudo esta perdido!</h1>
                 <button
                 class="btn text-white"
-                onclick="ScrollToId('p5')"
+                onclick="ScrollToId('p6')"
                 >Proximo</button>
         </b>
     </header>
+
+
+    <header id="p6" class="col-12 text-center text-white page flex-vertical-align">
+        <div>
+            <section class="col-6">
+                <article class="card-noticia floating">
+                    <img src="./img/imagem-da-sequencia-do-genoma-do-coronavirus-projetada-04032020172805541.jpeg" alt="">
+                    <p>No décimo dia do surto, já havia sido identificada a sequência do genoma do coronavírus</p>
+                </article>
+            </section>
+            <section class="col-6">
+                <b class="floating">
+                    <h1 class="Titulo">#1 Já sabemos quem ele é!</h1>
+                        <button
+                        class="btn text-white"
+                        onclick="ScrollToId('p7')"
+                        >Proximo</button>
+                </b>
+            </section>
+        </div>
+    </header>
+
+    <header id="p7" class="col-12 text-center text-white page flex-vertical-align">
+        <div>
+            <section class="col-6">
+                <b class="floating">
+                    <h1 class="Titulo">#2 81% dos casos são leves!</h1>
+                        <button
+                        class="btn text-white"
+                        onclick="ScrollToId('p8')"
+                        >Proximo</button>
+                </b>
+            </section>
+            <section class="col-6">
+                <article class="card-noticia floating">
+                    <img src="./img/corona-virus.jpeg" alt="">
+                    <p>A doença não causa sintomas ou é leve em 81% dos casos. Em 14%, pode causar pneumonia grave e em 5% pode se tornar crítica ou letal.</p>
+                </article>
+            </section>
+        </div>
+    </header>
+
+
+    <header id="p8" class="col-12 text-center text-white page flex-vertical-align">
+        <div>
+            <section class="col-6">
+                <article class="card-noticia floating">
+                    <img src="./img/paciente-recebe-alta-de-hospital-em-wuhan-epicentro-do-surto-na-china-04032020172806816.jpeg" alt="">
+                    <p>Os únicos dados que às vezes são mostrados na mídia são o aumento no número de casos confirmados e no número de mortes, mas a maioria das pessoas infectadas é curada.
+                    </p><p>
+                    Há 13 vezes mais pacientes curados do que mortos, e a proporção está aumentando.</p>
+                </article>
+            </section>
+            <section class="col-6">
+                <b class="floating">
+                    <h1 class="Titulo">#3 Cura</h1>
+                        <button
+                        class="btn text-white"
+                        onclick="ScrollToId('p9')"
+                        >Proximo</button>
+                </b>
+            </section>
+        </div>
+    </header>
+
+    <header id="p9" class="col-12 text-center text-white page flex-vertical-align">
+        <div>
+            <section class="col-6">
+                <b class="floating">
+                    <h1 class="Titulo">#4 Sabemos como detectá-lo!</h1>
+                        <button
+                        class="btn text-white"
+                        onclick="ScrollToId('p10')"
+                        >Proximo</button>
+                </b>
+            </section>
+            <section class="col-6">
+                <article class="card-noticia floating">
+                    <img src="./img/turistas-no-aeroporto-de-la-paz-na-bolivia-passam-por-testes-para-detectar-coronavirus-04032020172805908.jpeg" alt="">
+                    <p>Desde 13 de janeiro está disponível para todo o mundo um teste de RT-PCR para detectar o vírus.
+                    </p><p>
+                    Nos últimos meses, esses tipos de testes foram aperfeiçoados e tiveram sua sensibilidade e especificidade avaliadas.</p>
+                </article>
+            </section>
+        </div>
+    </header>
+
+
+
+    <header id="p10" class="col-12 text-center text-white page flex-vertical-align">
+        <div>
+            <section class="col-6">
+                <article class="card-noticia floating">
+                    <img src="./img/download.jpeg" alt="">
+                    
+                    <p>É o tempo da ciência e da cooperação. Em pouco mais de um mês, 164 artigos já podem ser consultados no PubMed sobre covid-19 ou SARSCov2, além de muitos outros disponíveis nos bancos de artigos ainda não revisados (pré-impressões).
+                    </p><p> 
+                    Esses artigos foram preparados por cerca de 700 autores espalhados pelo planeta. É ciência em comum, compartilhada e aberta. Em 2003, quando a Sars aconteceu, levou mais de um ano para obter menos da metade de artigos.</p>
+                </article>
+            </section>
+            <section class="col-6">
+                <b class="floating">
+                    <h1 class="Titulo">#5 Já existem mais de 150 artigos científicos</h1>
+                        <button
+                        class="btn text-white"
+                        onclick="ScrollToId('p11')"
+                        >Proximo</button>
+                </b>
+            </section>
+        </div>
+    </header>
+
+
+
+
+    <header id="p11" class="col-12 text-center text-white page flex-vertical-align">
+        <div>
+            <section class="col-6">
+                <b class="floating">
+                    <h1 class="Titulo">#6 O vírus é facilmente inativado!</h1>
+                        <button
+                        class="btn text-white"
+                        onclick="ScrollToId('p12')"
+                        >Proximo</button>
+                </b>
+            </section>
+            <section class="col-6">
+                <article class="card-noticia floating">
+                    <img src="./img/homem-lavando-as-maos-04032020172807113.jpeg" alt="">
+                    <p>O vírus pode ser inativado das superfícies com uma solução de etanol (álcool 62-71%), peróxido de hidrogênio (água oxigenada a 0,5%) ou hipoclorito de sódio (lixívia a 0,1%), em apenas um minuto.
+                    </p><p>
+                    A lavagem frequente das mãos com água e sabão é a maneira mais eficaz de evitar o contágio.</p>
+                </article>
+            </section>
+        </div>
+    </header>
+
+
+
+
+    <header id="p12" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">Viu só?</h1>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p13')"
+                >Proximo</button>
+        </b>
+    </header>
+
+
+    <header id="p13" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h2 class="no-margin-v Subtitulo">Independente de todo dano econômico e social, que essa crise provoque...</h2>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p14')"
+                >Proximo</button>
+        </b>
+    </header>
+
+    <header id="p14" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">Estaremos bem mais fortes, QUANDO essa situação toda acabar!</h1>
+        </b>
+    </header>
+
+
+
     </main>
 
     <script src="./script.js"></script>
