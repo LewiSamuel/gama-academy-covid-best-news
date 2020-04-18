@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Covid Best News</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="topo">
     <nav class="top-nav">
         <section class="container">
-            <b>Covid Best News</b>
+            <a href="#!" 
+            onclick="ScrollToId('topo')">
+                <b>Covid Best News</b>
+            </a>
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-                <li>Saiba mais</li>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./sobre.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="./contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="./saiba-mais.html">Saiba mais</a>
+                </li>
             </ul>
         </section>
     </nav>
@@ -236,6 +247,16 @@
     <header id="p14" class="col-12 text-center text-white page flex-vertical-align">
         <b class="floating">
             <h1 class="no-margin-v Titulo">Estaremos bem mais fortes, QUANDO essa situação toda acabar!</h1>
+            <button
+            class="btn text-white"
+            onclick="ScrollToId('p15')"
+            >Proximo</button>
+        </b>
+    </header>
+
+    <header id="p15" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">E sim, <br> Essa situação em breve vai acabar!</h1>
         </b>
     </header>
 
