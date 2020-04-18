@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Best News</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav style="
+    width: 100%;
+    position: fixed;
+    padding: 10px 15px;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    display: block;
+    color: white;
+">
+<section class="container">
+        <b style="
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 51px;
+">Covid Best News</b>
+        <ul style="
+    display: block;
+    float: right;
+    list-style: none;
+">
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+            <li>Saiba mais</li>
+        </ul>
+    </section>
+    </nav>
+    <main class="container">
+    <header class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">Hey!</h1>
+            <h2 class="no-margin-v Subtitulo">Cansado de ver somente <br/>
+                noticias ruins do covid né?</h2>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p2')"
+                >Proximo</button>
+        </b>
+    </header>
+
+    <header id="p2" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">Eu também!</h1>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p3')"
+                >Proximo</button>
+        </b>
+    </header>
+
+    <header id="p3" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">Mas mantenha o ânimo!</h1>
+            <h2 class="no-margin-v Subtitulo">São tempos dificeis, mas não impossiveis!</h2>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p4')"
+                >Proximo</button>
+        </b>
+    </header>
+
+    <header id="p4" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Titulo">Já passamos por outras crises</h1>
+            <h2 class="no-margin-v Subtitulo">e vamos superar essa também!</h2>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p5')"
+                >Proximo</button>
+        </b>
+    </header>
+
+    <header id="p5" class="col-12 text-center text-white page flex-vertical-align">
+        <b class="floating">
+            <h1 class="no-margin-v Subtitulo">E para te provar que estou falando sério quando digo isso, vou te mostrar 5 noticias que comprovam que nem tudo esta perdido!</h1>
+                <button
+                class="btn text-white"
+                onclick="ScrollToId('p5')"
+                >Proximo</button>
+        </b>
+    </header>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

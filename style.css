@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
+*{
+    /* font-family: 'Baloo Tammudu 2', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.2;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+@keyframes float {
+	0% {
+		text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+		transform: translatey(0px);
+	}
+	50% {
+		text-shadow: 5px 25px 10px rgba(0,0,0,0.3);
+		transform: translatey(-20px);
+	}
+	100% {
+		text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+		transform: translatey(0px);
+	}
+}
+
+a:hover,button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+html{
+    background-color: #1fc8db;
+    /* background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+    background-image: url('https://media.giphy.com/media/NPP4Z7wMIf0SA/giphy.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: auto;
+}
+body{
+    
+    background-image: linear-gradient(0deg, #0c3b6099, transparent);
+    background-attachment: fixed;
+
+    transition: all 0.4s ease-in-out;
+	/* animation: backAnimation 6s ease-in-out infinite; */
+}
+@keyframes backAnimation {
+	0% {
+		background-image: linear-gradient(0deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	}
+	50% {
+		background-image: linear-gradient(180deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	}
+	100% {
+		background-image: linear-gradient(0deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	}
+}
+
+.text-center{ 
+    text-align: center;
+ }
+.col-12{ 
+    width: 100%;
+ }
+.text-white{ 
+    color: white;
+ }
+.container{ 
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+ }
+.Titulo{
+    font-size: 70px;
+}
+.Subtitulo{
+    font-size: 35px;
+}
+.no-margin-v{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+ul li {
+    float: left;
+    margin-right: 28px;
+}
+
+.page{ 
+    min-height: 100vh;
+    width: 100%;
+    border-bottom: 5px dashed #173a577a;
+ }
+
+.flex-vertical-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 20px;
+    font-variant-caps: all-petite-caps;
+    background-color: transparent;
+    border: none;
+}
+.floating{
+    transition: all 0.4s ease-in-out;
+	animation: float 6s ease-in-out infinite;
+}
