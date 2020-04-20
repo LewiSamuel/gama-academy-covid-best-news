@@ -131,6 +131,10 @@ ul li {
 .card-noticia img{
     width: 100%;
 }
+.card-noticia iframe{
+    width: 100%;
+}
+
 .card-noticia p {
     font-size: 18px;
 }
